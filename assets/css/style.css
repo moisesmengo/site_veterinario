@@ -225,3 +225,45 @@ article .news-data{
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+footer{
+    background-color: rgb(81, 75, 104);
+    display: flex;
+    justify-content: center;
+}
+.footer-menu{
+    display: flex;
+}
+.fm-1, .fm-2, .fm-3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.fm-1{
+    background-color: rgb(136, 191, 214);
+}.fm-2{
+    background-color: rgb(45, 129, 165);
+}.fm-3{
+    background-color: rgb(14, 106, 145);
+}
+.flex-column{
+    flex-direction: column;
+}
+.footer-area{
+    display: flex;
+}
+.footer-area-item{
+    flex: 1;
+    color: #fff;
+}
+footer .widget-title-text{
+    color: #fff;
+}
+.footer-copy{
+    border-top: 1px solid #cccccc;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(224, 216, 216);
+    font-size: 12px;
+    margin-top:30px
+}
