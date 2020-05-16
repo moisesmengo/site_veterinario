@@ -267,3 +267,72 @@ footer .widget-title-text{
     font-size: 12px;
     margin-top:30px
 }
+.menu-mobile{
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(11, 97, 131);
+}
+
+@media (max-width:600px){
+    .banner-headline h1{
+        font-size: 55px;
+    }
+    .banner-headline h2{
+        font-size: 17px;
+        color: #fff;
+    }
+    .banner-headline{
+        padding: 20px
+    }
+    .banner-options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section, #geral aside{
+        padding: 20px;
+    }
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-copy{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+    header{
+        height: auto;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        background-color: #E5E5E5;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
